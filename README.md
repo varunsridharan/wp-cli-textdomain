@@ -15,7 +15,7 @@ To install **WP-Cli library**, simply:
 
     $ composer require varunsridharan/wp-cli-textdomain
     
-## Usage
+## Add Text Domain Usage
 
 ### Update Textdomains for all files inside a folder
 ```
@@ -31,6 +31,26 @@ $ ./vendor/bin/add-text-domain.bat -i your-textdomain ./your-path/your-file.php
 | Argument | Description |
 | -------- | ----------- |
 | `-i` | if provided then changes will be saved in the same file where its updated if not it will provide the file output | 
+
+
+## Make Pot Usage
+#### CMD
+```
+$ ./vendor/bin/makepot.bat ./pot-config.json
+```
+#### JSON File `pot-config.json`
+```json
+{
+  "src"     : "./",
+  "dist"    : "languages/plugin-slug.pot",
+  "domain"  : "project-text-domain",
+  "exclude" : "comma seperated folders name",
+  "headers" : {
+	"Last-Translator" : "Author Name\n",
+	"Language-Team"   : "LANGUAGE ll@example.com"
+  }
+}
+```
 
 
 ---

@@ -10,9 +10,11 @@
   "license"     : "GPL-3.0-or-later",
   "keywords"    : [ ],
   "bin"         : [
-    "bin/add-text-domain.bat"
+    "bin/add-textdomain.bat",
+    "bin/makepot"
   ],
   "require"     : {
+    "wp-cli/i18n-command" : ">=1"
   },
   "authors"     : [
     {
