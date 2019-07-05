@@ -13,6 +13,7 @@ composer.phar
 ### Eclipse ###
 
 .metadata
+bin/
 tmp/
 *.tmp
 *.bak
