@@ -13,7 +13,7 @@ The preferred way to install this extension is through [Composer][composer].
 
 To install **WP-Cli library**, simply:
 
-    $ composer require varunsridharan/wp-cli
+    $ composer require varunsridharan/wp-cli-textdomain
     
 ## Usage
 
@@ -58,7 +58,7 @@ You can contact me on [Twitter][twitter] or through my [email][email].
 [website]: https://varunsridharan.in
 [issues]: issues/
 [composer]: http://getcomposer.org/download/
-[downloadzip]:https://github.com/varunsridharan/wp-cli/archive/master.zip
+[downloadzip]:https://github.com/varunsridharan/wp-cli-textdomain/archive/master.zip
 
 [do-image]: https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/DO_Logo_Horizontal_Blue-small.png
 [jb-image]: https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/phpstorm-small.png?v3
@@ -67,18 +67,18 @@ You can contact me on [Twitter][twitter] or through my [email][email].
 [jb-ref]: https://www.jetbrains.com
 [tidio-ref]: https://tidiochat.com
 
-[latest-stable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli/version
-[latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli/v/unstable
-[total-downloads-img]: https://poser.pugx.org/varunsridharan/wp-cli/downloads
-[Latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli/v/unstable
+[latest-stable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli-textdomain/version
+[latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli-textdomain/v/unstable
+[total-downloads-img]: https://poser.pugx.org/varunsridharan/wp-cli-textdomain/downloads
+[Latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli-textdomain/v/unstable
 [wpcs-img]: https://img.shields.io/badge/WordPress-Standar-1abc9c.svg
-[license-img]: https://poser.pugx.org/varunsridharan/wp-cli/license
-[composerlock-img]: https://poser.pugx.org/varunsridharan/wp-cli/composerlock
+[license-img]: https://poser.pugx.org/varunsridharan/wp-cli-textdomain/license
+[composerlock-img]: https://poser.pugx.org/varunsridharan/wp-cli-textdomain/composerlock
 
-[latest-stable-version-link]: https://packagist.org/packages/varunsridharan/wp-cli
-[latest-Unstable-version-link]: https://packagist.org/packages/varunsridharan/wp-cli
-[total-downloads-link]: https://packagist.org/packages/varunsridharan/wp-cli
-[Latest-Unstable-Version-link]: https://packagist.org/packages/varunsridharan/wp-cli
+[latest-stable-version-link]: https://packagist.org/packages/varunsridharan/wp-cli-textdomain
+[latest-Unstable-version-link]: https://packagist.org/packages/varunsridharan/wp-cli-textdomain
+[total-downloads-link]: https://packagist.org/packages/varunsridharan/wp-cli-textdomain
+[Latest-Unstable-Version-link]: https://packagist.org/packages/varunsridharan/wp-cli-textdomain
 [wpcs-link]: https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/
-[license-link]: https://packagist.org/packages/varunsridharan/wp-cli
-[composerlock-link]: https://packagist.org/packages/varunsridharan/wp-cli
+[license-link]: https://packagist.org/packages/varunsridharan/wp-cli-textdomain
+[composerlock-link]: https://packagist.org/packages/varunsridharan/wp-cli-textdomain
