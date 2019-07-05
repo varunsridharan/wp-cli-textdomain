@@ -11,7 +11,7 @@
   "keywords"    : [ ],
   "bin"         : [
     "bin/add-textdomain.bat",
-    "bin/makepot"
+    "bin/makepot.bat"
   ],
   "require"     : {
     "wp-cli/i18n-command" : ">=1"
