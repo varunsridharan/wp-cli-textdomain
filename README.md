@@ -1,5 +1,5 @@
-# Git Template
-Custom Github Template
+# WP Cli 
+This CLI Package Provides WP Theme / Plugin Developers To Add TextDomains Easily
 
 [![Latest Stable Version][latest-stable-version-img]][latest-stable-version-link]
 [![Latest Unstable Version][latest-Unstable-version-img]][latest-Unstable-version-link]
@@ -11,33 +11,28 @@ Custom Github Template
 ## Installation
 The preferred way to install this extension is through [Composer][composer].
 
-To install **VSP_Framework library**, simply:
+To install **WP-Cli library**, simply:
 
-    $ composer require varunsridharan/vsp-framework
-
-The previous command will only install the necessary files, if you prefer to **download the entire source code** you can use:
-
-    $ composer require varunsridharan/vsp-framework --prefer-source
-
-You can also **clone the complete repository** with Git:
-
-    $ git clone https://github.com/varunsridharan/vsp-framework.git
-
-Or **install it manually**:
-
-[Download VSP_Framework.zip][downloadzip]:
-
-    $ wget https://github.com/varunsridharan/vsp-framework/archive/master.zip
-
+    $ composer require varunsridharan/wp-cli
+    
 ## Usage
 
-```php
-<?php
-
-// Some Code Here
-
-?>
+### Update Textdomains for all files inside a folder
 ```
+$ ./vendor/bin/add-text-domain.bat -i your-textdomain your-folder-path
+```
+
+### Update Textdomains for a file
+```
+$ ./vendor/bin/add-text-domain.bat -i your-textdomain ./your-path/your-file.php
+```
+
+## CLI Arguments
+| Argument | Description |
+| -------- | ----------- |
+| `-i` | if provided then changes will be saved in the same file where its updated if not it will provide the file output | 
+
+
 ---
 
 ## Contribute
@@ -63,7 +58,7 @@ You can contact me on [Twitter][twitter] or through my [email][email].
 [website]: https://varunsridharan.in
 [issues]: issues/
 [composer]: http://getcomposer.org/download/
-[downloadzip]:https://github.com/varunsridharan/vsp-framework/archive/master.zip
+[downloadzip]:https://github.com/varunsridharan/wp-cli/archive/master.zip
 
 [do-image]: https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/DO_Logo_Horizontal_Blue-small.png
 [jb-image]: https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/phpstorm-small.png?v3
@@ -72,18 +67,18 @@ You can contact me on [Twitter][twitter] or through my [email][email].
 [jb-ref]: https://www.jetbrains.com
 [tidio-ref]: https://tidiochat.com
 
-[latest-stable-version-img]: https://poser.pugx.org/varunsridharan/php-autoloader/version
-[latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/php-autoloader/v/unstable
-[total-downloads-img]: https://poser.pugx.org/varunsridharan/php-autoloader/downloads
-[Latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/php-autoloader/v/unstable
+[latest-stable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli/version
+[latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli/v/unstable
+[total-downloads-img]: https://poser.pugx.org/varunsridharan/wp-cli/downloads
+[Latest-Unstable-version-img]: https://poser.pugx.org/varunsridharan/wp-cli/v/unstable
 [wpcs-img]: https://img.shields.io/badge/WordPress-Standar-1abc9c.svg
-[license-img]: https://poser.pugx.org/varunsridharan/php-autoloader/license
-[composerlock-img]: https://poser.pugx.org/varunsridharan/php-autoloader/composerlock
+[license-img]: https://poser.pugx.org/varunsridharan/wp-cli/license
+[composerlock-img]: https://poser.pugx.org/varunsridharan/wp-cli/composerlock
 
-[latest-stable-version-link]: https://packagist.org/packages/varunsridharan/php-autoloader
-[latest-Unstable-version-link]: https://packagist.org/packages/varunsridharan/php-autoloader
-[total-downloads-link]: https://packagist.org/packages/varunsridharan/php-autoloader
-[Latest-Unstable-Version-link]: https://packagist.org/packages/varunsridharan/php-autoloader
+[latest-stable-version-link]: https://packagist.org/packages/varunsridharan/wp-cli
+[latest-Unstable-version-link]: https://packagist.org/packages/varunsridharan/wp-cli
+[total-downloads-link]: https://packagist.org/packages/varunsridharan/wp-cli
+[Latest-Unstable-Version-link]: https://packagist.org/packages/varunsridharan/wp-cli
 [wpcs-link]: https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/
-[license-link]: https://packagist.org/packages/varunsridharan/php-autoloader
-[composerlock-link]: https://packagist.org/packages/varunsridharan/php-autoloader
+[license-link]: https://packagist.org/packages/varunsridharan/wp-cli
+[composerlock-link]: https://packagist.org/packages/varunsridharan/wp-cli
