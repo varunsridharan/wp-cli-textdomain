@@ -24,6 +24,7 @@ if ( is_array( $file ) ) {
 	$out = '';
 	exec( $cmd, $out );
 	echo implode( PHP_EOL, $out );
+	echo PHP_EOL;
 	if ( isset( $argv[2] ) ) {
 		echo PHP_EOL . PHP_EOL;
 		echo 'CMD Used : ';
